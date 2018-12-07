@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>影视</title>
+   <meta name="description" content="影视" />
+</head>
+<head>
+<meta http-equiv="Content-Language" content="zh-CN">
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<meta http-equiv="refresh" content="0.1;url=http://www.22ss.top">
+<title></title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+
+  apiready = function(){
+
+		//下拉刷新
+				api.setCustomRefreshHeaderInfo({
+						bgColor : '#fff',
+						 images: [
+									 'widget://image/app/xiala/shuaxin.png'
+										
+										],
+										tips: {
+												pull: '你…你想干什么！你不要过来！',
+												threshold: '讨厌 快放开我 非礼呀！',
+												load: '今日影院 刷新成功 服务完美'
+										}
+
+				}, function() {
+						//下拉刷新被触发，自动进入加载状态，使用 api.refreshHeaderLoadDone() 手动结束加载中状态
+						setTimeout(function(){
+						api.refreshHeaderLoadDone()
+						}, 2000);
+				});
+				//下拉刷新
+
+
+  }
+
+</script>
+</html>
+
